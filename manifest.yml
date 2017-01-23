@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: IoT-GPI
+  host: IoT-GPI
+  disk_quota: 1024M
+  services:
+  - IoT-GPI-cloudantNoSQLDB
+  - IoT-GPI-iotf-service
